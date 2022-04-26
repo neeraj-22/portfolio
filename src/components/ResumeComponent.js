@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import resume from "../assets/Neeraj Gandhi_Resume.pdf"
 
 const ResumeComponent = () => {
 
@@ -39,10 +40,10 @@ const ResumeComponent = () => {
           <div className="text-center mt-4">
             <a
               className="btn btn-xl btn-outline-light"
-              href="http://localhost:8000/download-resume"
+              href={resume}
               target="_blank"
               rel="noopener noreferrer"
-          
+              download="Resume_NeerajGandhi.pdf"
             >
               <i className="fas fa-download me-2"></i>
               Download Resume
